@@ -1,0 +1,14 @@
+Data2Mongo.py  是将数据写到Mongo数据库
+    ------in2mongo(data) 是外部调用的实际写数据函数
+Data2MySQL.py  是将数据写到MySQL数据库
+    ------in2MySQL(dicts)  是外部调用的实际写数据函数
+Spider.py 是爬虫主要程序分为三个函数进行爬去
+    ------init_process()   一个看着很唬人的函数     就叫初始化吧
+    ------search_context()  是爬取目标网站所有页面数  返回页面总数
+    ------next_page(page_number)  一个循环体,是轮询获取的前提   接收一个页面数
+    ------get_products(page_number)   真正解析产品的函数
+
+TB_Books.sql   MySQL建表语句
+Authorized.py  一个认证文件，将需要的敏感信息写在一起了也方便用
+
+其实到数据库的可以写在一起的，但是我还是喜欢单独写一个文件感觉清晰点

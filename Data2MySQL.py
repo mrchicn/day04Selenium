@@ -4,8 +4,9 @@
 # -*- coding: UTF-8 -*-
 import pymysql
 import json
-db = pymysql.connect("172.20.5.134", "root", "admin", "Python_db", charset="utf8")
-def Insert(dicts):
+from Authorized import *
+db = pymysql.connect(URL, MySQL_User, MySQL_PWD, DB, charset="utf8")
+def in2MySQL(dicts):
     # print(dicts)
     cursor = db.cursor()
     # time.sleep(10)
