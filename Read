@@ -12,3 +12,5 @@ TB_Books.sql   MySQL建表语句
 Authorized.py  一个认证文件，将需要的敏感信息写在一起了也方便用
 
 其实到数据库的可以写在一起的，但是我还是喜欢单独写一个文件感觉清晰点
+
+http://www.mrchi.cn/  
