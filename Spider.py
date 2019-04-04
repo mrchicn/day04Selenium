@@ -14,7 +14,7 @@ from pyquery import PyQuery as pd
 import json
 
 from Data2Mongo import in2mongo
-from Data2MySQL import Insert
+from Data2MySQL import in2MySQL
 
 
 browser = webdriver.Chrome()
